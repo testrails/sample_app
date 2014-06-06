@@ -25,6 +25,8 @@ end
 
 gem 'jquery-rails'
 
+# Slim template
+gem 'slim'
 
 group :test do
   # Allow us to use english syntax which interacted with process
