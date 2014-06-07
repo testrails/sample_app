@@ -28,10 +28,10 @@ gem 'jquery-rails'
 # Slim template
 gem 'slim'
 
-group :test do
-  # Allow us to use english syntax which interacted with process
-  gem 'capybara', '1.1.2'
-end
+
+# Allow us to use english syntax which interacted with process
+gem 'capybara', '1.1.2'
+
 
 group :production do
   # Using in HEROKU
